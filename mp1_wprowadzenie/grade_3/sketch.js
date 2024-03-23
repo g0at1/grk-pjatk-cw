@@ -11,4 +11,5 @@ function draw() {
   }
   updatePixels();
   // noprotect
+  noLoop();
 }
