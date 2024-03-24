@@ -14,8 +14,8 @@ function draw() {
       let dy = y - centerY;
       let d = sqrt(dx * dx + dy * dy);
 
-      let redValue = 255 - (d / centerX) * 256;
-      let greenValue = (d / centerX) * 256;
+      let redValue = 255 - d;
+      let greenValue = d;
 
       set(x, y, color(redValue, greenValue, blueValue));
     }
